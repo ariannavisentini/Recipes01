@@ -1,0 +1,67 @@
+body {
+font-family: made saonara;
+}
+
+ul#menu {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    margin-left: 90%;
+}
+ul#menu li {
+    background-color: #FF831C;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    float: left; /* elementi su singola riga */
+}
+ul#menu li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+ul#menu li.active, ul#menu li:hover {
+    background-color: #54BAE2;
+    border-bottom: 5px solid #FF831C;
+}
+
+
+h1 {
+color:black;
+font-size: 70px;;
+}
+
+h2 {
+    color:orange;
+    font-size: 60px;;
+    text-align: center;
+    margin-left: 40px;
+    }
+
+h3 {
+    color: black;
+    font-size: 40px;
+    margin-left: 40px;
+    }
+
+h4 {
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    }
+
+ul {
+    margin-left: 40px;
+}
+
+ol {
+    margin-left: 40px;
+}
